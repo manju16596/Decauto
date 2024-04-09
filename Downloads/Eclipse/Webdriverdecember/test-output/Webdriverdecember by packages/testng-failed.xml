@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Webdriverdecember by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG(failed)">
+    <classes>
+      <class name="TestNG.Datepckerpgm">
+        <methods>
+          <include name="Testing"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- TestNG.Datepckerpgm -->
+      <class name="TestNG.Datadriventest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- TestNG.Datadriventest -->
+      <class name="TestNG.Movetoelement">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG.Movetoelement -->
+      <class name="TestNG.Facebook">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG.Facebook -->
+      <class name="TestNG.Fileuploadpgm">
+        <methods>
+          <include name="main"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- TestNG.Fileuploadpgm -->
+      <class name="TestNG.Parameterisation">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- TestNG.Parameterisation -->
+      <class name="TestNG.Crossbrowsing">
+        <methods>
+          <include name="setup"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- TestNG.Crossbrowsing -->
+      <class name="TestNG.Windowhandler">
+        <methods>
+          <include name="test"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- TestNG.Windowhandler -->
+      <class name="TestNG.TestNGDemo">
+        <methods>
+          <include name="test3"/>
+          <include name="test1"/>
+          <include name="setup"/>
+          <include name="aftrmthd"/>
+          <include name="test2"/>
+          <include name="urlloading"/>
+        </methods>
+      </class> <!-- TestNG.TestNGDemo -->
+      <class name="TestNG.Shoppy">
+        <methods>
+          <include name="setup"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- TestNG.Shoppy -->
+      <class name="TestNG.Draganddrop">
+        <methods>
+          <include name="test1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG.Draganddrop -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [Webdriverdecember by packages] -->
